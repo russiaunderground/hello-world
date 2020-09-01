@@ -4,6 +4,16 @@
 }
 
 h3 {
+	margin: 15px;
 	padding: 15px;
-	border: 1px solid black;
+	border: 2px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+	text-align: center;
+}
+
+.description {
+	text-align: center;
+	font-family: system-ui;
+	font-size: 12px;;
 }
